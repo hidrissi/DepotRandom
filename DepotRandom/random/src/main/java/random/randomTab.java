@@ -18,7 +18,15 @@ public class randomTab {
 		}
 	}
 	
-	
+	public static int SommeTab() {
+		int somme =0;
+		for(int i =0; i<res.size(); i++) {
+			somme =  somme + res.get(i);
+		}
+		
+		return somme;
+	}
+		
 public static void afficherTable() {
 	    System.out.println("Contenu Tableau ");
 		for(int i =0; i<res.size(); i++) {
